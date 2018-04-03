@@ -83,3 +83,67 @@ header h1{
 .cats-wat-helmets{
 	width: 600px;
 }
+.first-block .first-block_imagenes {
+    display: grid;
+    grid-template-columns: repeat(3,31.7vw);
+    grid-template-rows: repeat(3,38vw);
+}
+#lookbook-fw18{
+	margin-bottom: 3em;
+}
+#lookbook-fw18 img {
+    width: 93%;
+    display: block;
+    margin: 0 1em;
+}
+.first-big{
+    width: 103.3%;
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.snd-big{
+    width: 103%;
+    margin: 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+ .trd-big {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    width: 103.5%;
+    margin: 0;
+}
+.fth-big {
+    width: 103.5%;
+    margin: 0;
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    -ms-grid-row: 7;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+.duo ul{
+    margin-bottom: 3em;
+    flex-wrap: wrap;
+    display: flex;
+    height: 54vw;
+    width: 98%;
+    justify-content: space-between;
+}
+.duo ul li {
+    width: 50%;
+    margin: 0;
+}
+.snd-block ul{
+	display: grid;
+  grid-template-columns: repeat(3,31.7vw);
+  grid-template-rows: repeat(8,38vw);
+}
