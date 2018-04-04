@@ -27,28 +27,7 @@ body {
 	line-height: 1;
 	font-family: 'Josefin Sans', sans-serif;
 	margin-top: 1em;
-	background: linear-gradient(270deg, #30eebd, #f1ade3, #ddd1da);
-	background-size: 500% 500%;
-
-	-webkit-animation: AnimationName 16s ease infinite;
-	-moz-animation: AnimationName 16s ease infinite;
-	animation: AnimationName 16s ease infinite;
-
-	@-webkit-keyframes AnimationName {
-	    0%{background-position:0% 50%}
-	    50%{background-position:100% 50%}
-	    100%{background-position:0% 50%}
-	}
-	@-moz-keyframes AnimationName {
-	    0%{background-position:0% 50%}
-	    50%{background-position:100% 50%}
-	    100%{background-position:0% 50%}
-	}
-	@keyframes AnimationName { 
-	    0%{background-position:0% 50%}
-	    50%{background-position:100% 50%}
-	    100%{background-position:0% 50%}
-	}
+	background: lightsteelblue;
 }
 
 ol, ul {
@@ -68,10 +47,15 @@ table {
 }
 header,#wrapper{
 	max-width: 1500px;
-	width: 90%;
+	width: 96.3%;
 	margin: 1em auto ;
 }
 header h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background: rgba(255, 255, 255, 0.75);
 	font-size: 25px;
 	text-align: center;
 }
@@ -83,10 +67,16 @@ header h1{
 .cats-wat-helmets{
 	width: 600px;
 }
+.center-grid{
+	align-items: center;
+	justify-items: center;
+}
 .first-block .first-block_imagenes {
     display: grid;
     grid-template-columns: repeat(3,31.7vw);
     grid-template-rows: repeat(3,38vw);
+    width: fit-content;
+    margin: auto;
 }
 #lookbook-fw18{
 	margin-bottom: 3em;
@@ -94,43 +84,44 @@ header h1{
 #lookbook-fw18 img {
     width: 93%;
     display: block;
-    margin: 0 1em;
+    margin: 0 auto;
+}
+.left-side{
+	grid-column-start: 1;
+  grid-column-end: 3;
+}
+.right-side{
+   grid-column-start: 2;
+   grid-column-end: 4;
 }
 .first-big{
-    width: 103.3%;
     margin: 0;
-    grid-column-start: 1;
-    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
 }
+.big{
+    width: 100%;
+}
+#lookbook-fw18 .big img{
+  width: 96%;
+}
 .snd-big{
-    width: 103%;
     margin: 0;
-    grid-column-start: 2;
-    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 4;
 }
  .trd-big {
-    grid-column-start: 1;
-    grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 7;
-    width: 103.5%;
     margin: 0;
 }
 .fth-big {
-    width: 103.5%;
     margin: 0;
-    -ms-grid-column: 2;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    -ms-grid-row: 7;
     grid-row-start: 7;
     grid-row-end: 9;
 }
 .duo ul{
+	  margin: 1em auto;
     margin-bottom: 3em;
     flex-wrap: wrap;
     display: flex;
