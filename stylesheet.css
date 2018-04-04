@@ -73,9 +73,9 @@ header h1{
 }
 .first-block .first-block_imagenes {
     display: grid;
-    grid-template-columns: repeat(3,31.7vw);
-    grid-template-rows: repeat(3,38vw);
-    width: fit-content;
+    grid-template-columns: repeat(3,26.7vw);
+    grid-template-rows: repeat(3,32vw);
+    width: 80%;
     margin: auto;
 }
 #lookbook-fw18{
@@ -126,16 +126,22 @@ header h1{
     margin-bottom: 3em;
     flex-wrap: wrap;
     display: flex;
-    height: 54vw;
-    width: 98%;
+    height: 45vw;
+    width: 80%;
     justify-content: space-between;
 }
 .duo ul li {
-    width: 50%;
+    width: 48.7%;
     margin: 0;
 }
+#lookbook-fw18 .duo ul li img{
+	width: 100%;
+}
 .snd-block ul{
+	width: fit-content;
+  margin: auto;
 	display: grid;
-  grid-template-columns: repeat(3,31.7vw);
-  grid-template-rows: repeat(8,38vw);
+  grid-template-columns: repeat(3,26.7vw);
+  grid-template-rows: repeat(3,32vw);
+  width: 80%;
 }
