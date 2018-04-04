@@ -67,10 +67,6 @@ header h1{
 .cats-wat-helmets{
 	width: 600px;
 }
-.center-grid{
-	align-items: center;
-	justify-items: center;
-}
 .first-block .first-block_imagenes {
     display: grid;
     grid-template-columns: repeat(3,26.7vw);
