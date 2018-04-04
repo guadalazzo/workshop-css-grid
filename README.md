@@ -1,5 +1,9 @@
 # workshop-css-grid
 ## Workshop para la comunidad de freeCodeCamp, realizado con css puro, para aprender css grid y flex
+1. clonar repositorio con git clone "url de este repo"
+2. abrir el index.html con el navegador.
+3. seguir los comentarios del archivo para lograr el maquetado propuesto a continuación
+
  Maquetado a realizar:
 
 ![Alt text](images/babycottons_LOOKBOOK_DESKTOP.jpg "Title")
