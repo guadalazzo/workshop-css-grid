@@ -51,25 +51,14 @@ header,#wrapper{
 	margin: 1em auto ;
 }
 header h1{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	/*Alinear elemento con flex solamente*/
 	height: 100px;
 	background: rgba(255, 255, 255, 0.75);
 	font-size: 25px;
 	text-align: center;
 }
-#wrapper{
-	display: grid;
-  grid-template-columns: repeat(5,1fr);
-  grid-template-rows: 100px auto 40px;
-}
 .cats-wat-helmets{
 	width: 600px;
-}
-.center-grid{
-	align-items: center;
-	justify-items: center;
 }
 .first-block .first-block_imagenes {
     display: grid;
@@ -124,11 +113,10 @@ header h1{
 .duo ul{
 	  margin: 1em auto;
     margin-bottom: 3em;
-    flex-wrap: wrap;
-    display: flex;
     height: 45vw;
     width: 80%;
-    justify-content: space-between;
+    /* Alinear con flex llevar
+     elementos a los margenes*/
 }
 .duo ul li {
     width: 48.7%;
@@ -140,8 +128,6 @@ header h1{
 .snd-block ul{
 	width: fit-content;
   margin: auto;
-	display: grid;
-  grid-template-columns: repeat(3,26.7vw);
-  grid-template-rows: repeat(8,32vw);
+	/* formar grilla de tres columnas */
   width: 80%;
 }
