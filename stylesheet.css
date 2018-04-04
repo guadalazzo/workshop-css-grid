@@ -142,6 +142,6 @@ header h1{
   margin: auto;
 	display: grid;
   grid-template-columns: repeat(3,26.7vw);
-  grid-template-rows: repeat(3,32vw);
+  grid-template-rows: repeat(8,32vw);
   width: 80%;
 }
