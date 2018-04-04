@@ -82,6 +82,7 @@ header h1{
 	margin-bottom: 3em;
 }
 #lookbook-fw18 img {
+	  border: 2px solid whitesmoke;
     width: 93%;
     display: block;
     margin: 0 auto;
