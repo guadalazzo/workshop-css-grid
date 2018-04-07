@@ -1,4 +1,5 @@
 # workshop-css-grid
+## link a la charla https://bit.ly/2ICOIMZ
 ## Workshop para la comunidad de freeCodeCamp, realizado con css puro, para aprender css grid y flex
 1. clonar repositorio con git clone "url de este repo"
 2. abrir el index.html con el navegador.
